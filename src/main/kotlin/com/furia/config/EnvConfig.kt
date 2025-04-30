@@ -8,5 +8,4 @@ object EnvConfig {
     }
 
     val BOT_TOKEN = dotenv["BOT_TOKEN"] ?: throw IllegalArgumentException("Missing bot token in .env!")
-    val API_URL = dotenv["API_URL"] ?: "hltv.org"
 }
