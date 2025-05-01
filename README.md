@@ -51,7 +51,7 @@ The FURIA Telegram Fan Bot is a Telegram bot dedicated to FURIA Esports fans. It
 
 ## Running the Bot
 
-To start the bot locally:
+Start the bot locally:
 ```
 ./gradlew run
 ```
