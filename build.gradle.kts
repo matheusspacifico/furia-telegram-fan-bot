@@ -13,6 +13,7 @@ repositories {
 dependencies {
     implementation("io.github.kotlin-telegram-bot.kotlin-telegram-bot:telegram:6.0.7")
     implementation("io.github.cdimascio:dotenv-kotlin:6.4.1")
+    implementation("org.json:json:20250107")
 
     testImplementation(kotlin("test"))
 }
