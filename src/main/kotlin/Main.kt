@@ -1,7 +1,9 @@
 package com.furia
 
 import com.furia.com.furia.config.EnvConfig
+import com.furia.com.furia.handler.handleLiveCommand
 import com.furia.com.furia.handler.handleStartCommand
+import com.furia.com.furia.handler.handleTorcidaCommand
 import com.furia.com.furia.handler.handleUpcomingCommand
 import com.github.kotlintelegrambot.bot
 import com.github.kotlintelegrambot.dispatch
@@ -16,6 +18,8 @@ fun main() {
         dispatch {
             handleStartCommand()
             handleUpcomingCommand()
+            handleLiveCommand()
+            handleTorcidaCommand()
         }
     }
 
