@@ -16,7 +16,7 @@ The FURIA Telegram Fan Bot is a Telegram bot dedicated to FURIA Esports fans. It
 - **Kotlin** - Main programming language
 - **Gradle** - Build automation system
 - **OkHttpClient** - Fetching URL service from okhttp3
-- **[HLTV-API Unofficial API](https://hltv-api.vercel.app/api/matches.json)** - Unofficial API used to get matches
+- **[HLTV-API Unofficial API](https://hltv-api.vercel.app)** - Unofficial API used to get matches
 
 ## Dependencies
 - **kotlin-telegram-bot** - API for Telegram Bot interaction
